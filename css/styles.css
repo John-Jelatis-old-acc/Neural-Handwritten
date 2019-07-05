@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+	background-color: #CCDDFF;
+	color: #333344;
+	font-family: 'Roboto', 'Ubuntu';
+	text-align: center;
+	padding: 10vh 10vw;
+	font-size: 2.5vmin;
+}
+
+.button {
+	background-color: #F7F9FF;
+	border: solid 1px #444;
+	border-radius: 8px 8px;
+	box-shadow: 2px 2px 8px #333344;
+	display: inline-block;
+	left: 0;
+	transition-duration: .3s;
+	top: 0;
+	margin: 2px 8px;
+	padding: 1.5vh 2vw;
+	position: relative;
+	width: 20vw;
+}
+.button:hover {
+	background-color: #BBBFC8;
+}
+.button:active {
+	box-shadow: 0px 0px 8px #333344;
+	left: 2px;
+	top: 2px;
+}
+
+label {
+	display: inline-block;
+	padding: 1.5vh 2vw;
+}
+
+canvas {
+	border: solid 1px black;
+	border-radius: 8px 8px;
+	box-shadow: 2px 2px 8px #333344;
+}
